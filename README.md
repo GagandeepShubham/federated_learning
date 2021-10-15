@@ -4,5 +4,6 @@
 The global model is sent to the client devices by the server, the client devices trains that model using their own local data and then share the learnt parameters
 back with the server. Server then aggregates those parameters and updates the global model. Another round of federated training starts and client devices again trains
 the global model with their local data, and the process continues for certain number of communication rounds.</br>
-Dataset used: MNIST dataset.</br>
-Client devices: 2 (virtual clients: jake and john)
+**Dataset used**: MNIST dataset.</br>
+**Client devices**: 2 (virtual clients: jake and john)</br>
+**NOTE:** Use syft version 0.2.9
